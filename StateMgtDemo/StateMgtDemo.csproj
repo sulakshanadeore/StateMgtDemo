@@ -129,7 +129,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="HiddenFieldDemo.aspx" />
     <Content Include="Notes.txt" />
+    <Content Include="ReceiverPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -158,9 +160,11 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="SenderPage.aspx" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="VeiwStateDemo.aspx" />
+    <Content Include="viewStateDemo1.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -200,7 +204,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HiddenFieldDemo.aspx.cs">
+      <DependentUpon>HiddenFieldDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiddenFieldDemo.aspx.designer.cs">
+      <DependentUpon>HiddenFieldDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiverPage.aspx.cs">
+      <DependentUpon>ReceiverPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceiverPage.aspx.designer.cs">
+      <DependentUpon>ReceiverPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SenderPage.aspx.cs">
+      <DependentUpon>SenderPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SenderPage.aspx.designer.cs">
+      <DependentUpon>SenderPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,6 +253,13 @@
     </Compile>
     <Compile Include="VeiwStateDemo.aspx.designer.cs">
       <DependentUpon>VeiwStateDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewStateDemo1.aspx.cs">
+      <DependentUpon>viewStateDemo1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewStateDemo1.aspx.designer.cs">
+      <DependentUpon>viewStateDemo1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

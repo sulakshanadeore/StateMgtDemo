@@ -27,6 +27,8 @@ Cookies--- are text files,  but very risky to store sensitive data.
 uses key value pairs/Name value collection
 they are used to transfer data from one page to another.
 
+QueryString: used to transfer data from one page to another.
+it uses a string along with "?" so called Query String.
 
 
 2) Server Side State Mgt----they are stored on the server by the server.
